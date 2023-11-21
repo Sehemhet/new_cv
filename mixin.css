@@ -1,0 +1,14 @@
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin fs ($fs) {
+    font-size:$fs;
+}
+
+@mixin flex () {
+    justify-content: $horizontal;
+    align-content: $vertical;
+    flex-direction: $focus;
+    flex-wrap: $wrap;
+}
