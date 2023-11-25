@@ -2,3 +2,7 @@
 @import url("library.css");
 @import url("base.css");
 
+#_5 .el:hover {
+    flex:1 1 100%;
+    transition:.3s ease;
+}

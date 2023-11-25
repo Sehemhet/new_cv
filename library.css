@@ -86,9 +86,11 @@
 .f1_11 {flex:1 1 100%}
 .fa_11 {flex:1 1 auto}
 .f200_11 {flex:1 1 200px;}
+.f5_11 {flex:1 1 5%;}
 
 .gap50 {gap:50px;}
 .gap20 {gap:20px;}
+.gap10 {gap:10px;}
 
 .T_t::first-letter {text-transform: uppercase;}
 .t {text-transform: lowercase;}
@@ -111,6 +113,7 @@
 .pad50tb {padding-top:50px;padding-bottom:50px;}
 .pad30l {padding-left:30px;}
 .pad10 {padding:10px;}
+.pad30t {padding-top:30px;}
 
 .abs {position:absolute;}
 .rel {position:relative;}
@@ -138,4 +141,7 @@
 .cover {-o-object-fit:cover;object-fit:cover;}
 .hide {overflow:hidden;}
 .scroll {overflow:auto;height:100%;width:100%;}
+
+.br_15 {border-radius:15px;}
+
 
