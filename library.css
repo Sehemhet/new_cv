@@ -107,10 +107,16 @@
 .w414M {max-width:414px;}
 .h {height:100%;}
 .h100vh {height: 100vh;}
+@media (max-width:700px) {
+    .h100vh {
+        height: auto;
+    }
+}
 .h50 {height: 50px;}
 
 
 .pad50tb {padding-top:50px;padding-bottom:50px;}
+.pad50t {padding-top:50px;}
 .pad30l {padding-left:30px;}
 .pad10 {padding:10px;}
 .pad30t {padding-top:30px;}
@@ -143,5 +149,3 @@
 .scroll {overflow:auto;height:100%;width:100%;}
 
 .br_15 {border-radius:15px;}
-
-

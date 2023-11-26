@@ -2,11 +2,24 @@
 @import url("library.css");
 @import url("base.css");
 
-#_5 .el:hover {
-    flex:1 1 100%;
-    transition:.3s ease;
+
+
+input[type=checkbox] {
+width: 20px;
+height: 20px;
+cursor: pointer;
+border:1px solid green;
 }
-#_2 .el:hover {
-    flex:1 1 100%;
-    transition:.3s ease;
+
+.icon {
+    padding:2px;
+    background: rgb(30,30,30);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+svg {
+    min-height: 20px;
 }

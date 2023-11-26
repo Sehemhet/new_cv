@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
   text-transform: none;
 }
-a, input, button {
+a, button {
     text-decoration:none;
     color: inherit;
     all: initial;
@@ -49,6 +49,14 @@ header {
     width:100%;
     position:fixed;
     z-index:10;
+    height: 50px;
+
+}
+.header_in {
+    display:flex;
+    align-items: center;
+    height: 100%;
+    background: white;
 }
 header ul,
 header li,
@@ -58,10 +66,7 @@ header li,
 
 
 
-
+/*
 * {
-    background: rgba(0,0,0,0.1);
-    /*
     border:1px solid green;
-     */
 }
