@@ -107,7 +107,7 @@
 .w414M {max-width:414px;}
 .h {height:100%;}
 .h100vh {height: 100vh;}
-@media (max-width:700px) {
+@media (max-width:768px) {
     .h100vh {
         height: auto;
     }
