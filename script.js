@@ -34,7 +34,7 @@ window.addEventListener('resize', function() {
     }
 });
 // Обработчик клика на элементы меню
-document.querySelectorAll('.burger_nav a').forEach(item => {
+document.querySelectorAll('.burger_menu a').forEach(item => {
     item.addEventListener('click', burgerMenu);
 });
 

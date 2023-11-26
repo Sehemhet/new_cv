@@ -103,7 +103,7 @@
 .t_t {text-align: justify;}
 
 .w {width:100%;}
-.w_in {max-width:1092px;}
+.w_in {max-width:1092px;padding-left:10px;padding-right: 10px}
 .w414M {max-width:414px;}
 .h {height:100%;}
 .h100vh {height: 100vh;}
